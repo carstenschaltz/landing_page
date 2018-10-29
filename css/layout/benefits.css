@@ -1,0 +1,15 @@
+
+.benefit-content {
+  text-align: center;
+  margin: 30px;
+}
+
+.benefit-content img {
+  height: 100px;
+}
+
+.benefit-content h2 {
+  font-size: 20px;
+  font-weight: 200;
+}
+
