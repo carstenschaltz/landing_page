@@ -18,9 +18,15 @@
 .navbar-stotles-brand {
   color: #BCDFF2;
   font-size: 50px;
+  text-decoration: none
 }
 
 .navbar-stotles-brand:hover {
+  color: #BCDFF2;
+  text-decoration: none;
+}
+
+.navbar-stotles-brand:visited {
   color: #BCDFF2;
   text-decoration: none;
 }
