@@ -10,11 +10,6 @@
   justify-content: space-between;
 }
 
-/* Logo */
-.navbar-stotles-brand img {
-  height: 50px;
-}
-
 .navbar-stotles-brand {
   color: #BCDFF2;
   font-size: 50px;
@@ -24,18 +19,6 @@
 .navbar-stotles-brand:hover {
   color: #BCDFF2;
   text-decoration: none;
-}
-
-.navbar-stotles-brand:visited {
-  color: #BCDFF2;
-  text-decoration: none;
-}
-
-/* User Avatar */
-.navbar-stotles .avatar {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
 }
 
 /* Right section */

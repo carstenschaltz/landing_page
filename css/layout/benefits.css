@@ -1,15 +1,37 @@
-
-.benefit-content {
+.math-content {
   text-align: center;
   margin: 30px;
+  margin-top: 60px;
 }
 
-.benefit-content img {
-  height: 100px;
+.math-content img {
+  max-width: 500px
 }
 
-.benefit-content h2 {
+.math-content h2 {
   font-size: 20px;
   font-weight: 200;
 }
 
+@media screen and (max-width: 600px) {
+  .math-content {
+    text-align: center;
+    margin: 0;
+  }
+  .math-content img {
+    max-width: 80vw;
+  }
+}
+
+#benefit-icon {
+  height: 100px;
+  width: 100px;
+}
+
+#how-works {
+  max-width: 80vw;
+}
+
+#benefits {
+  padding-bottom: 10px
+}

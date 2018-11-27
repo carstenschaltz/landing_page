@@ -7,12 +7,7 @@
   align-items: center;
 }
 
-.banner-content {
-  text-align: left;
-}
-
 .banner-content h1 {
-  font-size: 48px;
   font-weight: 700;
 }
 
@@ -20,6 +15,20 @@
   font-size: 24px;
   font-weight: 100;
   margin-bottom: 30px
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+    height: auto;
+    padding-top: 10px;
+    text-align: center;
+  }
+  #landing-img {
+    height: 150px;
+  }
+  .banner-content h1 {
+    font-size: 2em;
+  }
 }
 
 
